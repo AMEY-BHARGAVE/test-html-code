@@ -28,5 +28,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}:sha-${{ github.sha }}
-            ghcr.io/${{ github.repository }}:latest
+            ghcr.io/amey-bhargave/test-html-code:sha-${{ github.sha }}
+            ghcr.io/amey-bhargave/test-html-code:latest
+
+          
